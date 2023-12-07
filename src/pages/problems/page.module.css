@@ -1,0 +1,29 @@
+.problems-page-main{
+    display: flex;
+    width:100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+}
+
+.navbar img, .navbar .heading{
+    margin:20px;
+
+}
+
+.navbar .heading{
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+    margin-left: 0px;
+
+}
+
+
+
+

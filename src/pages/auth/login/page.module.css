@@ -1,0 +1,73 @@
+.login-sect-main{
+    display: flex;
+    width:100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+}
+
+.navbar img, .navbar .heading{
+    margin:20px;
+
+}
+
+.navbar .heading{
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+    margin-left: 0px;
+
+}
+
+.img-col{
+  width:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-col{
+  width:40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width:500px) {
+  .img-col{
+    display: none;
+  }
+
+  .navbar .heading{
+   font-size: 16px;
+  }
+
+  .navbar img{
+    width:30px !important
+  }
+  
+  .form-col{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    SCALE: 0.7; 
+  }
+  .form-col .w-96{
+    width:90vw !important;
+    max-width: 90vw;
+    margin:auto !important;
+    scale: 0.8;
+  }
+
+}
+
+
+
+
